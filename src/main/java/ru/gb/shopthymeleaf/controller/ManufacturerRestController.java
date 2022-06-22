@@ -1,4 +1,4 @@
-package ru.gb.shopthymeleaf.rest;
+package ru.gb.shopthymeleaf.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -8,7 +8,6 @@ import ru.gb.gbapimay.manufacturer.api.ManufacturerGateway;
 import ru.gb.gbapimay.manufacturer.dto.ManufacturerDto;
 
 import java.util.List;
-
 
 @RequiredArgsConstructor
 @RestController
